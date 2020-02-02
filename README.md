@@ -1,6 +1,6 @@
 # zen-design
 
-> A Vue.js project
+> A component lib based on Vue 2.x
 
 ## Build Setup
 
