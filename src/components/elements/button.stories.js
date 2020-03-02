@@ -3,11 +3,11 @@ import MyButton from './button/index.vue'
 
 export default { title: 'Button' }
 
-export const withText = () => '<dp-button>with text</dp-button>'
+export const withText = () => '<z-button>with text</z-button>'
 
-export const withEmoji = () => '<dp-button>😀 😎 👍 💯</dp-button>'
+export const withEmoji = () => '<z-button>😀 😎 👍 💯</z-button>'
 
 export const asAComponent = () => ({
   components: { MyButton },
-  template: '<dp-button>rounded</dp-button>'
+  template: '<z-button>rounded</z-button>'
 })

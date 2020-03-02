@@ -2,7 +2,7 @@
   <component
     v-bind="$attrs"
     :is="isALinktag ? 'a' : 'button'"
-    class="dp-button"
+    class="z-button"
     :type="!isALinktag ? 'button' : null"
     :href="href"
     :disabled="!isALinktag && isDisabled"
@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  name: 'dp-button',
+  name: 'z-button',
   props: {
     isBlock: { type: Boolean, default: false },
     isDisabled: { type: Boolean, default: false },
