@@ -12,7 +12,8 @@
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
     "build": "node build/build.js",
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "build-storybook": "build-storybook -c .storybook -o .out"
   },
   "dependencies": {
     "@storybook/vue": "^5.3.14",
