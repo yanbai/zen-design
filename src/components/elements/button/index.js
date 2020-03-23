@@ -1,7 +1,7 @@
-import PantryButton from './index.vue'
+import ZenButton from './index.vue'
 
-PantryButton.install = (Vue) => {
-  Vue.component(PantryButton.name, PantryButton)
+ZenButton.install = (Vue) => {
+  Vue.component(ZenButton.name, ZenButton)
 }
 
-export { PantryButton }
+export { ZenButton }
